@@ -9,6 +9,6 @@
   {% if repo.name == "argentina" %}
     {{ repo.updated_at }}
     {{ repo.pushed_at }}
-  {endif}
+  {% endif %}
 {% endfor %}
 ```
