@@ -1,0 +1,14 @@
+- link: "https://youtube.com/@mozzart"
+  icon: "/assets/img/youtube_social_icon_red-2.png"
+  icon_alt: "YouTube@link"
+
+- link: "https://t.me/@mozzart"
+  icon: "/assets/img/telegram_logo.png"
+  icon_alt: "Telegram@link"
+
+- link: "https://instagram.com/@mozzart"
+  icon: "/assets/img/glyph-logo_May2016-150x150.png"
+  icon_alt: "GitHub@link"
+- link: "https://github.com/mozzart"
+  icon: "/assets/img/github-mark.png"
+  icon_alt: "GitHub@link"

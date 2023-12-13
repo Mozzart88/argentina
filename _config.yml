@@ -1,0 +1,8 @@
+title: ¡Hola Agrentina!
+description: "Гайд для тех кто перехал или хочет перехать в Аргентину"
+show_downloads: false
+google_analytics:
+theme: jekyll-theme-cayman
+exclude:
+  - "Dockerfile"
+baseurl: "/argentina"

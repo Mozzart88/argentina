@@ -1,0 +1,32 @@
+- title: DNI
+  data:
+  - title: Quick Start
+    link: /guides/dni/quickstart
+  - title: Как подать заявление на получение DNI
+    link: /guides/dni/submit-an-appointment-for-dni
+- title: CUIL
+  data:
+  - title: Quick Start
+    link: /guides/cuil/quickstart
+  - title: Идем в ANSES за CUIL
+    link: /guides/cuil/go-to-anses-for-cuil
+- title: Монотрибуто
+  data:
+  - title: Quick Start
+    link: /guides/monotributo/quickstart
+  - title: Получаем Clave Fiscal
+    link: /guides/monotributo/clave-fiscal
+  - title: Получаем CUIT
+    link: /guides/monotributo/cuit
+  - title: Регистрируем монотрибуто
+    link: /guides/monotributo/submit-monotributo
+- title: Справочник
+  data: 
+  - title: Документы
+    link: /guides/dictionary/docs
+  - title: Организации
+    link: /guides/dictionary/orgs
+  - title: Идентификаторы
+    link: /guides/dictionary/ids
+  - title: Ссылки
+    link: /guides/dictionary/links

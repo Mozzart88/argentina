@@ -2,15 +2,23 @@
 $large-breakpoint: 64em !default;
 $medium-breakpoint: 42em !default;
 
+// Colors
+$blue: #75ade1 !default;
+$gold: #fcb509 !default;
+$brown: #7b2b00 !default;
+$white: #fff !default;
+
+
 // Headers
-$header-heading-color: #fff !default;
-$header-bg-color: #159957 !default;
+$header-heading-color: $gold !default;
+$header-heading-color-secondary: #fff !default;
+$header-bg-color: $blue !default;
 $header-bg-color-secondary: #155799 !default;
 
 // Text
-$section-headings-color: #159957 !default;
+$section-headings-color: $blue !default;
 $body-text-color: #606c71 !default;
-$body-link-color: #1e6bb8 !default;
+$body-link-color: $gold !default;
 $blockquote-text-color: #819198 !default;
 
 // Code
