@@ -1,4 +1,4 @@
-class ExpandingList extends HTMLUListElement {
+class ExpandingList extends HTMLElement {
 	constructor() {
 	  self = super();
 	}
@@ -37,4 +37,4 @@ class ExpandingList extends HTMLUListElement {
 	}
 }
   
-customElements.define("expanding-list", ExpandingList, { extends: "ul" });
+customElements.define("ul-x", ExpandingList);

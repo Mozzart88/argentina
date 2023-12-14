@@ -5,7 +5,7 @@ description: "Обо всем по рядку и подробно"
 ---
 # Guides
 
-<ul is="expanding-list">
+<ul-x>
   {% for page in site.data.pages %}
     <li>
     {% if page.data %}
@@ -21,4 +21,4 @@ description: "Обо всем по рядку и подробно"
 
   </li>
   {% endfor %}
-</ul>
+</ul-x>
