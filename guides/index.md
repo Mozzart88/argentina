@@ -6,7 +6,8 @@ description: "Обо всем по рядку и подробно"
 # Guides
 
 <ul-x>
-  {% for page in site.data.pages %}
+  {% render ul-x.html for site.data.pages as data %}
+  <!-- {% for page in site.data.pages %}
     <li>
     {% if page.data %}
       {{ page.title }}
@@ -19,6 +20,6 @@ description: "Обо всем по рядку и подробно"
       <a href="{{ page.link | relative_url }}">{{ page.title }}</a>
 	{% endif %}
 
-  </li>
-  {% endfor %}
+  <!-- </li> -->
+  <!-- {% endfor %} -->
 </ul-x>

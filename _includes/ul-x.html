@@ -1,0 +1,13 @@
+{% for el in data %}
+<li>
+    {% if el.data %}
+      {{ el.title }}
+    	<ul>
+        {% render ul-x.html for el.data as data %}
+        </ul>
+	{% else %}
+      <a href="{{ page.link | relative_url }}">{{ page.title }}</a>
+	{% endif %}
+
+</li>
+{%e ndfor %}
