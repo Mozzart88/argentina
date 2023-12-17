@@ -12,7 +12,8 @@ description: "Обо всем по рядку и подробно"
       {{ page.title }}
     	<ul>
         {% for data in page.data %}
-          <li><a href="{{ data.link | relative_url }}">{{ data.title }}</a></li>
+			{% assign el=data %}
+    		{% include ul-x.html %}
         {% endfor %}
         </ul>
 	{% else %}
