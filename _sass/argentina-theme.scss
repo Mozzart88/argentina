@@ -77,14 +77,20 @@ a {
   border-style: solid;
   border-width: 1px;
   border-radius: 0.3rem;
-  transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+//   transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+  transition: scale 0.2s;
 
-  &:hover {
-    color: rgba(255, 255, 255, 0.8);
+
+	&:hover {
     text-decoration: none;
-    background-color: rgba(255, 255, 255, 0.2);
-    border-color: rgba(255, 255, 255, 0.3);
-  }
+	color: rgba(255, 163, 3, 0.7);
+	background-color: rgba(255, 163, 3, 0.08);
+	border-color: rgba(255, 163, 3, 0.2);	
+
+	@include large {
+			scale: 1.1; 
+		}
+	}
 
   + .btn {
     margin-left: 1rem;
@@ -104,6 +110,7 @@ a {
     width: 100%;
     padding: 0.75rem;
     font-size: 0.9rem;
+	text-align: center; 
 
     + .btn {
       margin-top: 1rem;
@@ -312,6 +319,10 @@ a {
     color: $blockquote-text-color;
     border-left: 0.3rem solid $blue;
 
+	&.warn {
+		background-color: #ff00001c;
+		border-left-color: #e27575;
+	}
     > :first-child {
       margin-top: 0;
     }
@@ -359,6 +370,7 @@ a {
     dd {
       padding: 0;
       margin-bottom: 1rem;
+
     }
   }
 
