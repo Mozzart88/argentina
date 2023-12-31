@@ -1,3 +1,4 @@
+{% unless el.disabled == true %}      
 <li>
     {% if el.data %}
       {{ el.title }}
@@ -12,3 +13,4 @@
 	{% endif %}
 
 </li>
+{% endunless %}
