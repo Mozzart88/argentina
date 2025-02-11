@@ -10,16 +10,66 @@
     link: /guides/cuil/quickstart
   - title: Идем в ANSES за CUIL
     link: /guides/cuil/go-to-anses-for-cuil
+- title: Mercado Libre/Pago
+  disabled: true
+  data:
+  - title: Quick Start
+    link: /guides/mercado/quickstart
+  - title: Что такое MercadoLibre/Pago
+    link: /guides/mercado/what-is
+  - title: Регистрируемся на MercadoLibre
+    link: /guides/mercado/sign-up-mercadolibre
+  - title: Регистрируемся на MercadoPago
+    link: /guides/mercado/sign-up-mercadopago
+- title: Банки Аргентины
+  disabled: true
+  data:
+  - title: Сравнительная таблица аргентинских банков
+    link: /guides/banks/comparision-table
+  - title: Banco Galicia
+    data: 
+    - title: "Особенности банка: Banco Galicia"
+      link: /guides/banks/banco-glicia/features-banco-galicia
+    - title: "Открываем счет: Banco Galicia"
+      link: /guides/banks/banco-glicia/open-account-banco-galicia
+  - title: Banco Nacional
+    data: 
+    - title: "Особенности банка: Banco Nacional"
+      link: /guides/banks/banco-nacional/features-banco-nacional
+    - title: "Открываем счет: Banco Nacional"
+      link: /guides/banks/banco-nacional/open-account-banco-nacional
+  - title: Banco Patagonia
+    data: 
+    - title: "Особенности банка: Banco Patagonia"
+      link: /guides/banks/banco-patagonia/features-banco-patagonia
+    - title: "Открываем счет: Banco Patagonia"
+      link: /guides/banks/bonco-patagonia/open-account-banco-patagonia
+  - title: Banco Provincia
+    data: 
+    - title: "Особенности банка: Banco Provincia"
+      link: /guides/banks/banco-provincia/features-banco-provinacia
+    - title: "Открываем счет: Banco Provincia"
+      link: /guides/banks/banco-provincia/open-account-banco-provincia
 - title: Монотрибуто
   data:
   - title: Quick Start
     link: /guides/monotributo/quickstart
-  - title: Получаем Clave Fiscal
-    link: /guides/monotributo/clave-fiscal
+  - title: Получаем Clave Fiscal по ВНЖ
+    link: /guides/monotributo/clave-fiscal-
+  - title: Получаем Clave Fiscal по DNI
+    link: /guides/monotributo/clave-fiscal-dni
   - title: Получаем CUIT
     link: /guides/monotributo/cuit
   - title: Регистрируем монотрибуто
     link: /guides/monotributo/submit-monotributo
+  - title: AGIP
+    data:
+      - title: Регитсрируемся в AGIP
+        link: /guides/monotributo/agip/signup
+      - title: Упрощенный режим в AGIP
+        link: /guides/monotributo/agip/simplefied-mode
+      - title: Как платить налоги в AGIP
+        link: /guides/monotributo/agip/taxes/how-to-pay
 - title: Справочник
   data: 
   - title: Документы

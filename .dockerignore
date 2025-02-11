@@ -1,0 +1,7 @@
+assets/**
+!assets/css
+!assets/scripts
+*docker*
+Docker*
+_site
+.git*

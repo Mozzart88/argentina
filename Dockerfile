@@ -1,10 +1,11 @@
-FROM ruby:3.0-alpine
+FROM ruby:latest
 
-RUN apk add git build-base
+RUN gem install jekyll bundler
 COPY . /app
 VOLUME [ "/app" ]
 WORKDIR /app
 
-RUN script/bootstrap
+RUN bundle install
+
 EXPOSE 4000
 CMD [ "bundle", "exec","jekyll", "serve", "--host", "0.0.0.0" ]
